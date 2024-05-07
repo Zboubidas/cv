@@ -1,5 +1,53 @@
 body {
     margin: 0;
     background: rgb(68, 69, 69);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    /* background:radial-gradient(rgba(68, 69, 69, 0), rgba(68, 69, 69, 1) 50%, rgb(68, 69, 69)); */
+}
+
+.bgimg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(../img/nebuleuse.jpg);
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.planete {
+    height: 30%;
+    width: 100%;
+    background-image: url(../img/planete.png);
+}
+
+
+
+.presentation {
+    
+    height: 30vh;
+    width: 20vw;
+    background-color: D9D9D9;
+    backdrop-filter: blur(5px);
+    font-size: 120%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    top: 10%;
+    left: 40%;
+    border-radius: 100%;
+    
 }
 
