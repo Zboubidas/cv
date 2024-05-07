@@ -1,0 +1,5 @@
+outer space (noir): 68, 69, 69 (444545)
+cambridge blue (bleue-vert): 134, 165, 156 (86A59C)
+tropical indigo (bleue): 112, 126, 255 (707EFF)
+Buff (marron) : 220, 158, 130 (DC9E82)
+Lime (jaune) : 202, 254, 72 (CAFE48)
